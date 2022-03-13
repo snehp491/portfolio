@@ -1,6 +1,16 @@
+:root {
+   
+    --light-pink: #F1DDD5; 
+    --earthy-green: #989e8b;
+    --ivory: #fdfbf6; 
+    --brown: #D3AB9B; 
+   
+}
+
 body {
-    background-color: #bdd09f;
+    background-color: var(--earthy-green);
     margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 * {
@@ -13,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: lavender;
+    background-color: var(--light-pink);
     max-height: 5vh;
 }
 
@@ -52,7 +62,7 @@ nav div ul li a:hover {
 
 main {
     border-radius: 15px;
-    background-color: whitesmoke;
+    background-color: var(--ivory);
     width: 84vw;
     height: 85vh;
     margin-left: auto;
@@ -64,9 +74,7 @@ main {
     min-height: 100%;
     display: flex;
     align-items: center;
-    border-top-color: coral;
-    border-top-width: 2px;
-    border-top-style: solid;
+
 }
 
 .home-section {
@@ -114,7 +122,7 @@ aside {
     justify-content: space-around;
     border-right-style: solid;
     border-right-width: 2px;
-    border-right-color: coral;
+    border-right-color: var(--brown);
 }
 
 @media screen and (max-width: 800px) {
@@ -170,7 +178,7 @@ aside {
     right: 0;
     bottom: 0;
     opacity: 0;
-    background-color: cornflowerblue;
+    background-color: rgb(115, 155, 230);
     border-radius: 5px;
     display: flex;
     align-items: center;
