@@ -53,3 +53,40 @@ main {
 .content-section {
     height: 100%;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+footer div ul {
+    background-color: grey;
+    opacity: 0.75;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+footer div ul li {
+    display: inline-block;
+}
+
+.icon {
+    min-height: 40px;
+    min-width: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
