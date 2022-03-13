@@ -62,9 +62,15 @@ main {
 
 .content-section {
     height: 100%;
+    display: flex;
+    align-items: center;
+    border-top-color: coral;
+    border-top-width: 2px;
+    border-top-style: solid;
 }
 
 .home-section {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +82,39 @@ main {
 
 .home-content {
     margin-left: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.section-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 250px;
+}
+
+.aside-title {
+    height: 30vh;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: coral;
 }
 
 footer {
