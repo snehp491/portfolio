@@ -117,6 +117,15 @@ aside {
     border-right-color: coral;
 }
 
+@media screen and (max-width: 800px) {
+    aside {
+        display: none;
+    }
+    .aside-title {
+        display: none;
+    }
+}
+
 .work-row {
     margin-left: 50px;
     display: flex;
