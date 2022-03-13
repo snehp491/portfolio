@@ -122,8 +122,16 @@ aside {
     display: flex;
     flex-wrap: wrap;
 }
-  
-/* Create two equal columns that sits next to each other */
+
+.work-column-highlight {
+    max-width: 100%;
+}
+
+.work-column-highlight img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
 
 .work-column {
     flex: 50%;
@@ -135,6 +143,40 @@ aside {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+.work-item {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.work-item-description-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.work-item:hover .work-item-description-overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.work-item-description-content {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
