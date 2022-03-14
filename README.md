@@ -3,6 +3,7 @@
 
 :tipping_hand_woman: Welcome to Sneh's portfolio, where you can learn more about her and her work experience. If you have any questions you can reach out to her!
 
+https://snehp491.github.io/portfolio/
 <img width="1390" alt="Screen Shot 2022-03-13 at 7 22 55 PM" src="https://user-images.githubusercontent.com/99702361/158083685-82d6f99b-7baf-49eb-8a26-b6b673d9e749.png">
 
 ### :pencil2:	 How it started
